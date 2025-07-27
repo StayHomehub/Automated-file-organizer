@@ -1,0 +1,29 @@
+{
+  "source_directory": "E:\\PythonProject\\test_source",
+  "target_directories": {
+    "documents": {
+      "path": "E:\\PythonProject\\test_organized\\Documents",
+      "extensions": [".pdf", ".doc", ".docx", ".txt", ".rtf", ".odt", ".xls", ".xlsx", ".ppt", ".pptx"]
+    },
+    "images": {
+      "path": "E:\\PythonProject\\test_organized\\Images",
+      "extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".svg", ".webp", ".ico"]
+    }
+  },
+  "settings": {
+    "create_subdirectories_by_date": true,
+    "date_format": "%Y-%m",
+    "handle_duplicates": "rename",
+    "log_level": "INFO",
+    "dry_run": false,
+    "recursive": false,
+    "min_file_size": 0,
+    "max_file_size": null
+  },
+  "exclude_patterns": [
+    "*.tmp",
+    "*.temp",
+    "~*",
+    ".*"
+  ]
+}

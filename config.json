@@ -1,0 +1,117 @@
+{
+  "source_directory": "E:\\Downloads",
+  "target_directories": {
+    "documents": {
+      "path": "E:\\Downloads\\Documents",
+      "extensions": [
+        ".pdf",
+        ".doc",
+        ".docx",
+        ".txt",
+        ".rtf",
+        ".odt",
+        ".xls",
+        ".xlsx",
+        ".ppt",
+        ".pptx"
+      ]
+    },
+    "images": {
+      "path": "E:\\Downloads\\images",
+      "extensions": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".bmp",
+        ".tiff",
+        ".svg",
+        ".webp",
+        ".ico"
+      ]
+    },
+    "videos": {
+      "path": "E:\\Downloads\\videos",
+      "extensions": [
+        ".mp4",
+        ".avi",
+        ".mkv",
+        ".mov",
+        ".wmv",
+        ".flv",
+        ".webm",
+        ".m4v",
+        ".3gp"
+      ]
+    },
+    "audio": {
+      "path": "E:\\Downloads\\audio",
+      "extensions": [
+        ".mp3",
+        ".wav",
+        ".flac",
+        ".aac",
+        ".ogg",
+        ".wma",
+        ".m4a",
+        ".opus"
+      ]
+    },
+    "archives": {
+      "path": "E:\\Downloads\\archives",
+      "extensions": [
+        ".zip",
+        ".rar",
+        ".7z",
+        ".tar",
+        ".gz",
+        ".bz2",
+        ".xz"
+      ]
+    },
+    "executables": {
+      "path": "E:\\Downloads\\executables",
+      "extensions": [
+        ".exe",
+        ".msi",
+        ".deb",
+        ".rpm",
+        ".dmg",
+        ".pkg"
+      ]
+    },
+    "code": {
+      "path": "E:\\Downloads\\code",
+      "extensions": [
+        ".py",
+        ".js",
+        ".html",
+        ".css",
+        ".java",
+        ".cpp",
+        ".c",
+        ".h",
+        ".php",
+        ".rb",
+        ".go",
+        ".rs"
+      ]
+    }
+  },
+  "settings": {
+    "create_subdirectories_by_date": false,
+    "date_format": "%Y-%m",
+    "handle_duplicates": "skip",
+    "log_level": "INFO",
+    "dry_run": false,
+    "recursive": false,
+    "min_file_size": 0,
+    "max_file_size": null
+  },
+  "exclude_patterns": [
+    "*.tmp",
+    "*.temp",
+    "~*",
+    ".*"
+  ]
+}

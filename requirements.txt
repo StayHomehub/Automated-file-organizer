@@ -1,0 +1,19 @@
+# Automated File Organizer - Python Requirements
+# 
+# This project uses only Python standard library modules.
+# No third-party packages are required.
+# 
+# Minimum Python version: 3.6+
+# Recommended Python version: 3.8+
+#
+# The following standard library modules are used:
+# - os, json, shutil, logging, argparse
+# - datetime, pathlib, typing, fnmatch
+# - sys, subprocess, platform
+#
+# If you need to install Python, visit: https://www.python.org/downloads/
+#
+# To verify your Python version, run:
+# python --version
+# or
+# python3 --version
